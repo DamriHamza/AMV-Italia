@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titolo{
+    font-family: 'Yeon Sung', cursive;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#navbar .container{
+    display: flex;
+    background-color: #333;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar .container ul li{
+    list-style: none;
+    
+}
+#navbar .container ul{
+    display: flex;
+    padding-right: 1rem;
+    
+}
+#navbar .container ul li a{
+    padding: 15px;
+    display: block;
+}
+
+#navbar .container h1{
+    display: flex;
+    margin-left: 4rem;
+    font-size: 34px;
+
+}
+#navbar ul li a:hover,
+#navbar ul li.current{
+    background: #555;
+    color: orange;
+    border-top: 4px solid orange;
+}
+
+#showcase .container{
+    display: flex;
+    background: url(719179.png) no-repeat center center/cover;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inizia{
+    display: inline-block;
+    color: #fff;
+    background: #444;
+    padding: 15px;
+    
+}
+.inizia:hover{
+    background: #333;
+    padding: 15px;
+    color: orange;
+}
+.text{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    justify-content: start;
+    font-size: 24px;
+}
+#showcase2 .container{
+    display: flex;
+    height: 350px;
+    
+}
+
+#showcase2 .container .image{
+    background: orange;
+    flex: 1;
+}
+
+#showcase2 .container .parte2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    background: #333;
+}
+#showcase2 .container .parte2 h1{
+   padding-bottom: 20px;
+}
+#showcase2 .container .parte2 p{
+    padding-bottom: 20px;
+ }
+
+ .btn{
+     color: #fff;
+     display: inline-block;
+     background: #555;
+     padding: 20px;
+     cursor: pointer;
+ }
+.btn:hover{
+    padding: 20px;
+    background: #555;
+    color: orange;
+}
+.fas{
+    cursor: pointer;
+
+}
